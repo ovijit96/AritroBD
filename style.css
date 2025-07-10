@@ -1,3 +1,11 @@
+body{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid rgb(2, 2, 2);
+
+}
+
+
 /* header section */
 
 .logo{
@@ -17,7 +25,9 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 20px;
-    padding: 10px 40px;
+    padding: 10px 90px;
+    background-color: #c5d4f0;
+    border-radius: 10px;
     
     /* border: 2px solid red; */   /* for sure */
 
@@ -78,3 +88,75 @@
     margin-bottom: 40px;
     line-height: 1.3;
 }
+
+/* action sections */
+
+.action-section{
+    display: flex;
+    margin: 50px 90px;
+    padding: 60px 40px;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    
+}
+
+.action-text h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.action-text p{
+    font-size: 24px;
+    color: #504e69;
+}
+
+.action-img img{
+    max-width: auto;
+    max-height: auto;
+    /* border: ; */
+    border-radius: 35px;
+    box-shadow: 0 5px 15px #fa8a01;
+}
+
+/* Productive user sections */
+
+.mother{
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+
+.user-section{
+    text-align: center;
+    background-color: #e7e8ff;
+    border-radius: 24px;
+    margin: 60px 40px;
+    padding: 5px 20px;
+}
+
+.user-section h2{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: -20px ;
+    /* color: blue; */
+
+}
+
+.child h3{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: -15px;
+    color: #4E47FF;
+}
+
+.child p{
+    font-size: 24px;
+    color: #504e69;
+
+}
+
+
