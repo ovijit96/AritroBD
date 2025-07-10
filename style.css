@@ -1,0 +1,80 @@
+/* header section */
+
+.logo{
+    font-weight: 800;
+    font-size: 25px;
+    
+}
+.logo span{
+    color: #FFA500;
+}
+
+.header-section{
+
+    /* background-image: url(Assets/Hero-bg.png); */
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 10px 40px;
+    
+    /* border: 2px solid red; */   /* for sure */
+
+}
+
+/* extras like button, hover, font */
+
+.btn, .stay-btn{
+    background-color: #4E47FF;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    /* font-weight: 400; */
+    cursor: pointer;
+
+}
+
+.btn{
+    padding: 10px 15px;
+    font-weight: 400;
+}
+.stay-btn{
+    font-weight: 600;
+}
+
+
+.btn:hover{
+    background-color: #2980b9;
+}
+
+
+.stay-btn:hover{
+    background-color: #2980b9;
+}
+
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* banner sections */
+.banner{
+    background-image: url(Assets/Hero-bg.png);
+    background-size: cover;
+    margin: 20px;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 1.3;
+}
