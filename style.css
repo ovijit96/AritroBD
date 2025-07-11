@@ -250,12 +250,12 @@ h2{
 /* newsletter sectioins */
 .newsletter{
     display: flex;
-    max-width: 900px;
     gap: 50px;
     padding: 20px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 30px;
+    /* border: 2px solid salmon; */
 }
 
 .left-side{
@@ -276,12 +276,14 @@ h2{
 }
 
 label{
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
     margin-bottom: 5px;
 }
 
 input textarea{
     font-size: 16px;
+    padding: 12px;
     
 }
 textarea{
@@ -290,4 +292,58 @@ textarea{
 .allign{
     display: flex;
     flex-direction: column;
+    
 }
+.btn-3{
+    background: #4E47FF;
+      color: white;
+      padding: 14px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+}
+
+.btn-3:hover{
+    background-color: #2980b9
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    padding: 40px 20px;
+    border: 2px solid black;
+}
+
+.logo-2{
+    font-size: 48px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 20px;
+
+}
+
+.description{
+    color: #504e69;
+    font-size: 16px;
+    margin: 0 auto 30px;
+
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #8889;
+    font-size: 15px;
+    /*  */
+    
+}
+.nav-links a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links:hover{
+    background-color: #2980b9;
+}
+
