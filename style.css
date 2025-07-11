@@ -2,6 +2,7 @@ body{
     margin: 10px;
     padding: 20px;
     border: 2px solid rgb(2, 2, 2);
+    background: linear-gradient(180deg, #B8E7FA, #E6E6FA);
 
 }
 
@@ -160,3 +161,133 @@ body{
 }
 
 
+/* review sections */
+
+h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.card{
+    /* border: 2px solid green; */
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 2px 8px #fa8a01;
+    border-radius: 14px;
+    
+}
+
+.card h3{
+    font-size: 24px;
+
+}
+
+.card p{
+    font-size: 16px;
+    color: #504e69;
+
+}
+
+
+
+.testimonial{
+    display: flex;
+    justify-content:center ;
+    gap: 20px;
+
+
+
+}
+
+.star{
+    display: flex;
+    /* flex-direction:r ; */
+    margin-bottom: 10px;
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+/* focus sections */
+
+.focus{
+    text-align: center;
+    /* border: 2px solid darkblue; */
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.focus h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.focus p{
+    font-size: 16px;
+    color: #504e69;
+    margin-bottom: 20px;
+}
+
+.focus-img{
+    margin-top: 30px;
+    justify-content: center;
+    /* border: 2px solid black; */
+    /* border-radius: 15px; */
+}
+.focus-img img{
+    border-radius: 5px;
+    box-shadow: 0 5px 15px #fa8a01;
+}
+
+/* newsletter sectioins */
+.newsletter{
+    display: flex;
+    max-width: 900px;
+    gap: 50px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-side h1{
+    font-size: 48px;
+
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input textarea{
+    font-size: 16px;
+    
+}
+textarea{
+    resize: vertical;
+}
+.allign{
+    display: flex;
+    flex-direction: column;
+}
