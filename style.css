@@ -1,7 +1,7 @@
 body{
     margin: 10px;
     padding: 20px;
-    border: 2px solid rgb(2, 2, 2);
+    /* border: 2px solid rgb(2, 2, 2); */
     background: linear-gradient(180deg, #B8E7FA, #E6E6FA);
 
 }
@@ -202,7 +202,7 @@ h2{
 
 .star{
     display: flex;
-    /* flex-direction:r ; */
+    
     margin-bottom: 10px;
 }
 
@@ -281,7 +281,7 @@ label{
     margin-bottom: 5px;
 }
 
-input textarea{
+input, textarea{
     font-size: 16px;
     padding: 12px;
     
@@ -312,7 +312,7 @@ textarea{
 footer{
     text-align: center;
     padding: 40px 20px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .logo-2{
@@ -320,6 +320,7 @@ footer{
     font-weight: bold;
     color: blue;
     margin-bottom: 20px;
+    text-decoration: none;
 
 }
 
@@ -343,7 +344,7 @@ footer{
     font-size: 15px;
 }
 
-.nav-links:hover{
-    background-color: #2980b9;
+.nav-links a:hover{
+    background-color: #04ec9f;
 }
 
